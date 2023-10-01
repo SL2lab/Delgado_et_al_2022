@@ -1,0 +1,33 @@
+Setting up a Python environment
+Instructions created for the Sensors for Living Systems Lab (SL2) lead by David Myers, PHD,
+	based at Georgia Institute of Technology and Emory University
+
+A big part of running this code is setting up the environment to run it in (called an integrated development environment, or IDE). Basically this is a piece of software (there's several to choose from) that allows you to run a piece of code/script. The code prepared for the Myers lab is written is in the coding language Python. 
+
+Please download my suggested IDE, Pycharm. You can get the professional version for free with a .edu email, but the community version works just fine. 
+
+First, download Python:
+	PyCharm context: https://www.jetbrains.com/help/pycharm/quick-start-guide.html#which-language
+
+	Python downloads: https://www.python.org/
+		Choose the most recent full release (not prerelease)
+
+
+Then, download Pycharm:
+	https://www.jetbrains.com/pycharm/download/ (scroll down for community version)
+	
+
+Pycharm's quick start guide is an excellent resource for getting started:
+	https://www.jetbrains.com/help/pycharm/quick-start-guide.html
+
+You'll need to install each library listed in the script you're using using pip installs.
+	For example, for the dot_intensity_quant.py script, you'll run the following commands:
+	Copy and paste the following into the terminal (see bottom row of IDE):
+
+	pip install datetime
+	pip install opencv-python
+	pip install pillow
+	pip install scikit-image
+	pip install numpy
+	pip install pandas
+	pip install matplotlib
